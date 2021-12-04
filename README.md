@@ -1,4 +1,5 @@
-### Hi there 👋
+### Data Science professional with 8+ years of experience in helping organizations to harness the power of data and make informed decisions with an inquisitive mind and technical abilities
+### Provide strategic input into business decisions as a trusted advisor and proactively identify emerging issues and trends to inform decision-making
 
 <!--
 **Melvinroy/MelvinRoy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
