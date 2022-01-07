@@ -5,4 +5,12 @@
 - I take up freelancing projects which are interesting & challenging 
 - I spend most of my time building products which helps me trade/backtest equaites and derivatives 
 
+Connect with me:
 
+
+Languages and Tools:
+
+
+Github 
+
+[![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy)](https://github.com/melvinroy/github-readme-stats)
