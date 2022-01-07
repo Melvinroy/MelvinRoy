@@ -12,8 +12,8 @@ Languages and Tools:
 
 
 Github 
-<p align="center">
+
 [![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy&count_private=true)](https://github.com/melvinroy/github-readme-stats)
-</p>
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact)](https://github.com/melvinroy/github-readme-stats)
 
