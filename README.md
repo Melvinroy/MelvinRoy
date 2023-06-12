@@ -13,12 +13,12 @@
 <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
 </p>
 
-Languages and Tools:
+<!-- Languages and Tools:
 
 
 Github 
 
 [![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy&count_private=true)](https://github.com/melvinroy/github-readme-stats)
 
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact)](https://github.com/melvinroy/github-readme-stats)
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact)](https://github.com/melvinroy/github-readme-stats) -->
 
