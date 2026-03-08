@@ -3,7 +3,7 @@
   Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast | MLOps Strategist
 </p>
 <p align="center">
-  <strong>Lead Data Scientist @ TD Bank (Toronto)</strong> | Full professional background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
+  Based in Singapore | Full professional background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=760&lines=Building+Catalyst+IQ;Finding+breakout+stocks+with+strong+catalyst+news;Research+to+signal+to+execution" alt="Animated builder status" />
