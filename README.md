@@ -1,24 +1,37 @@
-## Hello <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi">
+# Hi, I'm Melvin Roy
+### Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast
 
-- I'm Melvin a Lead Data Scientist
-- I build & deploy Machine Learning Model, Website & Mobile App
-- I take up freelancing projects which are interesting & challenging 
-- I spend most of my time building products which helps me trade/backtest equaites and derivatives 
+I build and deploy machine learning systems, web products, and mobile applications.
+Most of my personal build time goes into trading and backtesting tools for equities and derivatives.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
-</p>
+## What I Do
+- Lead data science initiatives with production-first thinking.
+- Build end-to-end ML pipelines from experimentation to deployment.
+- Design practical products that combine analytics, automation, and clean UX.
+- Take on selective freelance projects that are technically challenging and high impact.
 
-<!-- Languages and Tools:
+## Current Focus
+- Alpha research and strategy validation workflows.
+- Backtesting architecture and performance tooling.
+- Applied ML for decision support and prediction systems.
 
+## Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-Github 
+## GitHub Snapshot
+![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy&show_icons=true&count_private=true&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact&hide_border=true)
 
-[![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy&count_private=true)](https://github.com/melvinroy/github-readme-stats)
-
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact)](https://github.com/melvinroy/github-readme-stats) -->
+## Connect
+- GitHub: [github.com/Melvinroy](https://github.com/Melvinroy)
+- LinkedIn: [Add your LinkedIn URL](https://www.linkedin.com/)
+- X/Twitter: [Add your X URL](https://x.com/)
+- Email: `Add your email address`
 
