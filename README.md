@@ -1,6 +1,6 @@
 <h1 align="center">Melvin Roy</h1>
 <p align="center">
-  Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast | MLOps Strategist
+  Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast | AI Engineer | Agentic Systems Builder
 </p>
 <p align="center">
   Based in Singapore | Full professional background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
