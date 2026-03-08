@@ -1,6 +1,9 @@
 <h1 align="center">Melvin Roy</h1>
 <p align="center">
-  Lead Data Scientist &nbsp;·&nbsp; ML Product Builder &nbsp;·&nbsp; Quant Systems Enthusiast
+  Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast | MLOps Strategist
+</p>
+<p align="center">
+  Professional experience: Lead Data Scientist at TD Bank, Toronto | Full background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=760&lines=Building+Catalyst+IQ;Finding+breakout+stocks+with+strong+catalyst+news;Research+to+signal+to+execution" alt="Animated builder status" />
@@ -17,10 +20,10 @@ I spend most of my time building things at the intersection of machine learning,
 
 On the side, I take on selective freelance work - technically challenging, high-impact projects where there's a real problem worth solving.
 
-## 🔨 What I'm Currently Building
+## What I'm Currently Building
 - **Catalyst IQ** - a system to identify stocks with breakout setups backed by strong catalyst news.
 
-## 🛠 Tech Stack
+## Tech Stack
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
@@ -33,12 +36,12 @@ On the side, I take on selective freelance work - technically challenging, high-
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 </p>
 
-## 📌 Featured Projects
+## Featured Projects
 | Project | Description |
 |---|---|
 | **Catalyst IQ** | Identifies stocks with breakout potential based on strong catalyst news. |
 
-## 📊 GitHub Stats
+## GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Melvinroy&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" />
   &nbsp;&nbsp;
@@ -49,6 +52,5 @@ On the side, I take on selective freelance work - technically challenging, high-
 </p>
 
 <p align="center">
-  <sub>Open to high-impact freelance work · <a href="mailto:melvinroy.victor@gmail.com">melvinroy.victor@gmail.com</a></sub>
+  <sub>Open to high-impact freelance work | <a href="mailto:melvinroy.victor@gmail.com">melvinroy.victor@gmail.com</a></sub>
 </p>
-
