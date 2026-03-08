@@ -46,9 +46,9 @@ On the side, I take on selective freelance work - technically challenging, high-
 
 ## GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Melvinroy&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Melvinroy&theme=github_dark" height="150" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Melvinroy&layout=compact&theme=github_dark&hide_border=true" height="150" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Melvinroy&theme=github_dark" height="150" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Melvinroy&theme=github-dark-blue&hide_border=true" height="150" />
