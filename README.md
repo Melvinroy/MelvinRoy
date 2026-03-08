@@ -1,37 +1,57 @@
-# Hi, I'm Melvin Roy
-### Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast
+<h1 align="center">Melvin Roy</h1>
+<p align="center">
+  <em>Lead Data Scientist &nbsp;·&nbsp; ML Product Builder &nbsp;·&nbsp; Quant Systems Enthusiast</em>
+</p>
+<p align="center">
+  <a href="https://linkedin.com/in/melvinroy1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://github.com/Melvinroy"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="mailto:melvinroy.victor@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+</p>
 
-I build and deploy machine learning systems, web products, and mobile applications.
-Most of my personal build time goes into trading and backtesting tools for equities and derivatives.
+I spend most of my time building things at the intersection of machine learning, financial markets, and clean product design - the kind of systems that actually make it to production and get used. Right now I'm deep in alpha research workflows and backtesting architecture for equities and derivatives. I care as much about how a system fails as I do about how it performs.
 
-## What I Do
-- Lead data science initiatives with production-first thinking.
-- Build end-to-end ML pipelines from experimentation to deployment.
-- Design practical products that combine analytics, automation, and clean UX.
-- Take on selective freelance projects that are technically challenging and high impact.
+On the side, I take on selective freelance work - technically challenging, high-impact projects where there's a real problem worth solving.
 
-## Current Focus
-- Alpha research and strategy validation workflows.
-- Backtesting architecture and performance tooling.
-- Applied ML for decision support and prediction systems.
+## 🔨 What I'm Currently Building
+- Alpha research pipelines - strategy validation and signal engineering for equities and derivatives
+- Backtesting tooling - performance attribution, drawdown analysis, and execution simulation
+- Decision support systems - applied ML for prediction and automation workflows
 
-## Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+## 🛠 Tech Stack
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+</p>
 
-## GitHub Snapshot
-![Melvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=melvinroy&show_icons=true&count_private=true&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melvinroy&layout=compact&hide_border=true)
+## 📌 Featured Projects
+| Project | Description |
+|---|---|
+| [backtest-engine](https://github.com/Melvinroy/backtest-engine) | Event-driven backtesting framework for equities and options strategies |
+| [alpha-research](https://github.com/Melvinroy/alpha-research) | Signal research and factor validation pipeline |
+| [ml-deploy-template](https://github.com/Melvinroy/ml-deploy-template) | Production-ready ML service template with FastAPI and Docker |
 
-## Connect
-- GitHub: [github.com/Melvinroy](https://github.com/Melvinroy)
-- LinkedIn: [linkedin.com/in/melvinroy1](https://www.linkedin.com/in/melvinroy1/)
-- X/Twitter: [Add your X URL](https://x.com/)
-- Email: `Add your email address`
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Melvinroy&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Melvinroy&layout=compact&theme=github_dark&hide_border=true" height="150" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Melvinroy&theme=github-dark-blue&hide_border=true" height="150" />
+</p>
+
+<p align="center">
+  <sub>Open to high-impact freelance work · <a href="mailto:melvinroy.victor@gmail.com">melvinroy.victor@gmail.com</a></sub>
+</p>
 
