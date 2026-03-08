@@ -19,7 +19,7 @@
   <a href="mailto:melvinroy.victor@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-I spend most of my time building things at the intersection of machine learning, financial markets, and clean product design - the kind of systems that actually make it to production and get used. Right now I'm building **Catalyst IQ**, where I'm studying the relationship between stocks that break out and the strength of catalyst-driven news behind those moves. I care as much about how a system fails as I do about how it performs.
+I spend most of my time building things at the intersection of machine learning, financial markets, and clean product design - the kind of systems that actually make it to production and get used. Right now I'm building **Catalyst IQ** to quantify how the strength and quality of catalyst news influences stock breakout behavior. I care as much about how a system fails as I do about how it performs.
 
 On the side, I take on selective freelance work - technically challenging, high-impact projects where there's a real problem worth solving.
 
