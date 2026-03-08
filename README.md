@@ -1,6 +1,6 @@
 <h1 align="center">Melvin Roy</h1>
 <p align="center">
-  Lead Data Scientist | AI Product & Strategy | ML Product Builder | Quant Systems Enthusiast | Applied AI
+  AI Product & Strategy | ML Product Builder | Data Science | Quant Systems Enthusiast | Applied AI
 </p>
 <p align="center">
   Based in Singapore | Full professional background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
