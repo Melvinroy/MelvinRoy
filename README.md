@@ -3,17 +3,20 @@
   Lead Data Scientist | ML Product Builder | Quant Systems Enthusiast | MLOps Strategist
 </p>
 <p align="center">
-  Professional experience: Lead Data Scientist at TD Bank, Toronto | Full background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
+  <strong>Lead Data Scientist @ TD Bank (Toronto)</strong> | Full professional background on <a href="https://linkedin.com/in/melvinroy1">LinkedIn</a>
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=760&lines=Building+Catalyst+IQ;Finding+breakout+stocks+with+strong+catalyst+news;Research+to+signal+to+execution" alt="Animated builder status" />
 </p>
 <p align="center">
-  <a href="https://linkedin.com/in/melvinroy1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <strong>Connect</strong>
+</p>
+<p align="center">
+  <a href="https://linkedin.com/in/melvinroy1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   &nbsp;
-  <a href="https://github.com/Melvinroy"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Melvinroy"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   &nbsp;
-  <a href="mailto:melvinroy.victor@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:melvinroy.victor@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 I spend most of my time building things at the intersection of machine learning, financial markets, and clean product design - the kind of systems that actually make it to production and get used. Right now I'm deep in alpha research workflows and backtesting architecture for equities and derivatives. I care as much about how a system fails as I do about how it performs.
