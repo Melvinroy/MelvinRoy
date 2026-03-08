@@ -1,6 +1,9 @@
 <h1 align="center">Melvin Roy</h1>
 <p align="center">
-  <em>Lead Data Scientist &nbsp;·&nbsp; ML Product Builder &nbsp;·&nbsp; Quant Systems Enthusiast</em>
+  Lead Data Scientist &nbsp;·&nbsp; ML Product Builder &nbsp;·&nbsp; Quant Systems Enthusiast
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=760&lines=Building+Catalyst+IQ;Finding+breakout+stocks+with+strong+catalyst+news;Research+to+signal+to+execution" alt="Animated builder status" />
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/melvinroy1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
@@ -15,21 +18,17 @@ I spend most of my time building things at the intersection of machine learning,
 On the side, I take on selective freelance work - technically challenging, high-impact projects where there's a real problem worth solving.
 
 ## 🔨 What I'm Currently Building
-- Alpha research pipelines - strategy validation and signal engineering for equities and derivatives
-- Backtesting tooling - performance attribution, drawdown analysis, and execution simulation
-- Decision support systems - applied ML for prediction and automation workflows
+- **Catalyst IQ** - a system to identify stocks with breakout setups backed by strong catalyst news.
 
 ## 🛠 Tech Stack
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 </p>
@@ -37,9 +36,7 @@ On the side, I take on selective freelance work - technically challenging, high-
 ## 📌 Featured Projects
 | Project | Description |
 |---|---|
-| [backtest-engine](https://github.com/Melvinroy/backtest-engine) | Event-driven backtesting framework for equities and options strategies |
-| [alpha-research](https://github.com/Melvinroy/alpha-research) | Signal research and factor validation pipeline |
-| [ml-deploy-template](https://github.com/Melvinroy/ml-deploy-template) | Production-ready ML service template with FastAPI and Docker |
+| **Catalyst IQ** | Identifies stocks with breakout potential based on strong catalyst news. |
 
 ## 📊 GitHub Stats
 <p align="center">
