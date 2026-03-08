@@ -31,7 +31,7 @@ Most of my personal build time goes into trading and backtesting tools for equit
 
 ## Connect
 - GitHub: [github.com/Melvinroy](https://github.com/Melvinroy)
-- LinkedIn: [Add your LinkedIn URL](https://www.linkedin.com/)
+- LinkedIn: [linkedin.com/in/melvinroy1](https://www.linkedin.com/in/melvinroy1/)
 - X/Twitter: [Add your X URL](https://x.com/)
 - Email: `Add your email address`
 
