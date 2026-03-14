@@ -49,7 +49,7 @@ On the side, I take on selective freelance work - technically challenging, high-
   <img src="./assets/github-work-card.svg" alt="GitHub work snapshot including private contributions" />
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Melvinroy&theme=github_dark" height="150" />
+  <img src="./assets/github-activity-overview.svg" alt="GitHub activity overview including private contributions" />
 </p>
 
 <p align="center">
