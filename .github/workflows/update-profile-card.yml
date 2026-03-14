@@ -1,4 +1,4 @@
-name: Update Profile Card
+name: Update Profile Cards
 
 on:
   workflow_dispatch:
@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - "scripts/generate-profile-card.mjs"
+      - "config/agentic-cards.json"
       - ".github/workflows/update-profile-card.yml"
 
 permissions:
@@ -28,7 +29,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Generate card
+      - name: Generate cards
         run: |
           if [ -z "${PROFILE_STATS_TOKEN}" ]; then
             echo "PROFILE_STATS_TOKEN is not configured; skipping card generation."
@@ -36,19 +37,19 @@ jobs:
           fi
           node scripts/generate-profile-card.mjs
 
-      - name: Commit generated card
+      - name: Commit generated cards
         run: |
           if [ -z "${PROFILE_STATS_TOKEN}" ]; then
             echo "PROFILE_STATS_TOKEN is not configured; skipping commit."
             exit 0
           fi
-          if git diff --quiet -- assets/github-work-card.svg assets/github-activity-overview.svg; then
+          if git diff --quiet -- assets/agentic-strategy-card.svg assets/agentic-execution-card.svg assets/agentic-validation-card.svg assets/github-work-card.svg assets/github-activity-overview.svg; then
             echo "No card changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add assets/github-work-card.svg assets/github-activity-overview.svg
-          git commit -m "Update profile card"
+          git add assets/agentic-strategy-card.svg assets/agentic-execution-card.svg assets/agentic-validation-card.svg assets/github-work-card.svg assets/github-activity-overview.svg
+          git commit -m "Update profile cards"
           git push
