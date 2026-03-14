@@ -44,14 +44,6 @@ On the side, I take on selective freelance work - technically challenging, high-
 |---|---|
 | **Catalyst IQ** | Identifies stocks with breakout potential based on strong catalyst news. |
 
-## GitHub Stats
-<p align="center">
-  <img src="./assets/github-work-card.svg" alt="GitHub work snapshot including private contributions" />
-</p>
-<p align="center">
-  <img src="./assets/github-activity-overview.svg" alt="GitHub activity overview including private contributions" />
-</p>
-
 <p align="center">
   <sub>Open to high-impact freelance work | <a href="mailto:melvinroy.victor@gmail.com">melvinroy.victor@gmail.com</a></sub>
 </p>
