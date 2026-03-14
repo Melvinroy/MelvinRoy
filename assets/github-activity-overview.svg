@@ -13,7 +13,7 @@
         <text x="28" y="90" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial, sans-serif">Commits</text>
         <rect x="156" y="76" width="250" height="16" rx="8" fill="#132033" />
         <rect x="156" y="76" width="250" height="16" rx="8" fill="#60a5fa" />
-        <text x="422" y="90" fill="#f8fafc" font-size="13" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">33</text>
+        <text x="422" y="90" fill="#f8fafc" font-size="13" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">34</text>
       
         <text x="28" y="124" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial, sans-serif">Pull Requests</text>
         <rect x="156" y="110" width="250" height="16" rx="8" fill="#132033" />
@@ -32,7 +32,7 @@
       
         <text x="28" y="226" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial, sans-serif">Private</text>
         <rect x="156" y="212" width="250" height="16" rx="8" fill="#132033" />
-        <rect x="156" y="212" width="8" height="16" rx="8" fill="#f97316" />
+        <rect x="156" y="212" width="7" height="16" rx="8" fill="#f97316" />
         <text x="422" y="226" fill="#f8fafc" font-size="13" text-anchor="end" font-family="Segoe UI, Arial, sans-serif">1</text>
       
   <text x="386" y="236" fill="#64748b" font-size="12" font-family="Segoe UI, Arial, sans-serif">Updated 2026-03-14</text>
