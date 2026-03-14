@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "strategy",
+      "title": "Strategy Layer",
+      "descriptor": "Human-led problem framing",
+      "metricType": "custom",
+      "metricLabel": "active thesis",
+      "metricValue": "1",
+      "modeLabel": "Top-down direction",
+      "accent": "#0969da"
+    },
+    {
+      "id": "execution",
+      "title": "Execution Layer",
+      "descriptor": "Agent-assisted build loop",
+      "metricType": "github",
+      "metricKey": "totalCommitContributions",
+      "metricLabel": "commits YTD",
+      "modeLabel": "Human + agent execution",
+      "accent": "#1a7f37"
+    },
+    {
+      "id": "validation",
+      "title": "Validation Layer",
+      "descriptor": "Research -> test -> refine",
+      "metricType": "github",
+      "metricKey": "totalContributions",
+      "metricLabel": "contributions YTD",
+      "modeLabel": "Evidence over output",
+      "accent": "#8250df"
+    }
+  ]
+}
