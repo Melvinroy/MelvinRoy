@@ -1,0 +1,50 @@
+name: Update Profile Card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-profile-card.mjs"
+      - ".github/workflows/update-profile-card.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Skip when token is not configured
+        if: ${{ secrets.PROFILE_STATS_TOKEN == '' }}
+        run: echo "PROFILE_STATS_TOKEN is not configured; skipping card generation."
+
+      - name: Generate card
+        if: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: node scripts/generate-profile-card.mjs
+
+      - name: Commit generated card
+        if: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
+        run: |
+          if git diff --quiet -- assets/github-work-card.svg; then
+            echo "No card changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-work-card.svg
+          git commit -m "Update profile card"
+          git push
