@@ -45,15 +45,5 @@ On the side, I take on selective freelance work - technically challenging, high-
 | **Catalyst IQ** | Identifies stocks with breakout potential based on strong catalyst news. |
 
 <p align="center">
-  <img src="./assets/agentic-strategy-card.svg" alt="Strategy layer card" />
-</p>
-<p align="center">
-  <img src="./assets/agentic-execution-card.svg" alt="Execution layer card" />
-</p>
-<p align="center">
-  <img src="./assets/agentic-validation-card.svg" alt="Validation layer card" />
-</p>
-
-<p align="center">
   <sub>Open to high-impact freelance work | <a href="mailto:melvinroy.victor@gmail.com">melvinroy.victor@gmail.com</a></sub>
 </p>
