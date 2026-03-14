@@ -42,13 +42,13 @@ jobs:
             echo "PROFILE_STATS_TOKEN is not configured; skipping commit."
             exit 0
           fi
-          if git diff --quiet -- assets/github-work-card.svg; then
+          if git diff --quiet -- assets/github-work-card.svg assets/github-activity-overview.svg; then
             echo "No card changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add assets/github-work-card.svg
+          git add assets/github-work-card.svg assets/github-activity-overview.svg
           git commit -m "Update profile card"
           git push
