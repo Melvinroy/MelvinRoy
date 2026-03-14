@@ -17,6 +17,8 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,19 +28,20 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Skip when token is not configured
-        if: ${{ secrets.PROFILE_STATS_TOKEN == '' }}
-        run: echo "PROFILE_STATS_TOKEN is not configured; skipping card generation."
-
       - name: Generate card
-        if: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
-        env:
-          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
-        run: node scripts/generate-profile-card.mjs
+        run: |
+          if [ -z "${PROFILE_STATS_TOKEN}" ]; then
+            echo "PROFILE_STATS_TOKEN is not configured; skipping card generation."
+            exit 0
+          fi
+          node scripts/generate-profile-card.mjs
 
       - name: Commit generated card
-        if: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
         run: |
+          if [ -z "${PROFILE_STATS_TOKEN}" ]; then
+            echo "PROFILE_STATS_TOKEN is not configured; skipping commit."
+            exit 0
+          fi
           if git diff --quiet -- assets/github-work-card.svg; then
             echo "No card changes to commit."
             exit 0
