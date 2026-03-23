@@ -7,7 +7,7 @@
   <text x="42" y="62" fill="#57606a" font-size="13" font-family="Segoe UI, Arial, sans-serif">Agent-assisted build loop</text>
   <rect x="42" y="80" width="180" height="38" rx="10" fill="#ffffff" stroke="#d8dee4" />
   <text x="56" y="95" fill="#57606a" font-size="11" font-family="Segoe UI, Arial, sans-serif">COMMITS YTD</text>
-  <text x="56" y="112" fill="#1f2328" font-size="21" font-weight="700" font-family="Segoe UI, Arial, sans-serif">136</text>
+  <text x="56" y="112" fill="#1f2328" font-size="21" font-weight="700" font-family="Segoe UI, Arial, sans-serif">144</text>
   <text x="242" y="95" fill="#57606a" font-size="12" font-family="Segoe UI, Arial, sans-serif">Build Mode</text>
   <text x="242" y="114" fill="#1f2328" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Human + agent execution</text>
   <text x="42" y="134" fill="#656d76" font-size="11" font-family="Segoe UI, Arial, sans-serif">Agentic operating model card for 2026</text>
