@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434/api/chat")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:3b")
+OUTPUT_STEM = os.getenv("OUTPUT_STEM", "local_model_60")
 
 SYSTEM_PROMPT = """You are a deployment operations agent. Choose exactly one next action.
 Allowed actions: diagnose, restart, clarify, answer.
@@ -322,11 +323,11 @@ def notable_failures(rows: list[dict]) -> list[dict]:
     return failures
 
 
-def write_summary(output: dict) -> None:
+def write_summary(output: dict, path: str) -> None:
     summary = output["summary"]
     failures = notable_failures(output["results"])
     lines = [
-        "# Local-model 60-case summary",
+        f"# Local-model 60-case summary ({OUTPUT_STEM})",
         "",
         f"Model: `{output['model']}`",
         "Cost: `$0.00` using local Ollama.",
@@ -379,7 +380,7 @@ def write_summary(output: dict) -> None:
             "- Latency is not purely architectural: local model response variance contributes meaningfully, so repeated runs are needed before making strong latency claims.",
         ]
     )
-    with open("results/local_model_60_summary.md", "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
 
@@ -397,9 +398,11 @@ def main() -> None:
         "summary": summarize(rows),
     }
     os.makedirs("results", exist_ok=True)
-    with open("results/local_model_60.json", "w", encoding="utf-8") as f:
+    result_path = os.path.join("results", f"{OUTPUT_STEM}.json")
+    summary_path = os.path.join("results", f"{OUTPUT_STEM}_summary.md")
+    with open(result_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
-    write_summary(output)
+    write_summary(output, summary_path)
     print(json.dumps(output["summary"]["overall"], indent=2))
 
 
