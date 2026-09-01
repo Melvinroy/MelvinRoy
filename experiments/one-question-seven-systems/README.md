@@ -11,8 +11,33 @@ Compare a minimal demo-style agent with a production-minded agent under the same
 3. Low-cost paid fallback only when needed.
 4. Redesign the experiment if cost becomes material.
 
-## Smoke-test phase
-The first phase uses six deterministic scenarios—one from each failure family—to validate the harness before adding any model/API cost.
+## Phase 1 — deterministic harness
+Six deterministic scenarios—one from each failure family—validate the harness before adding model variability.
+
+Run:
+```bash
+python smoke_test.py
+```
+
+## Phase 2 — same local model, two architectures
+Both agents now use the **same local Ollama model** for the decision step. The production-minded version adds ambiguity, evidence, policy, retry, idempotency and tracing boundaries around the model.
+
+Default model: `qwen2.5:3b` (override with `OLLAMA_MODEL`).
+
+Setup:
+```bash
+ollama pull qwen2.5:3b
+ollama serve
+python local_model_test.py
+```
+
+Optional override:
+```bash
+OLLAMA_MODEL=llama3.2:3b python local_model_test.py
+```
+
+Results are written to:
+`results/local_model_smoke.json`
 
 Failure families:
 - normal
@@ -31,13 +56,8 @@ Metrics captured:
 - latency
 - estimated cost
 
-## Run
-
-```bash
-python smoke_test.py
-```
-
-No API key or paid service is required for the smoke-test phase.
+## Interpretation rule
+The deterministic smoke-test results are **not article evidence**. Publishable evidence begins only after the same real model is used for both architectures and results are reproducible across repeated runs.
 
 ## Next
-After the harness passes, replace the deterministic decision layer with the same local model for both agent variants, then expand from 6 to ~60 scenarios.
+Run the six-case local-model smoke test, inspect failures and traces, then expand the validated scenario definitions to ~60 cases.
