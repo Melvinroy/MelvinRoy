@@ -1,90 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Animated cognitive core representing analytics, machine learning and agentic systems">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="Rotating monochrome brain">
   <defs>
-    <radialGradient id="core" cx="50%" cy="45%" r="58%">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.42" stop-color="#e7f8ff"/>
-      <stop offset="0.72" stop-color="#b9ecff"/>
-      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.5" stop-color="#0ea5e9"/>
-      <stop offset="1" stop-color="#14b8a6"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feOffset dy="10" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.12"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
     <style>
-      .orbit { transform-box: fill-box; transform-origin: center; animation: spin 15s linear infinite; }
-      .orbit2 { transform-box: fill-box; transform-origin: center; animation: spinBack 22s linear infinite; }
-      .brain { transform-box: fill-box; transform-origin: center; animation: breathe 5s ease-in-out infinite; }
-      .pulse { animation: pulse 3.4s ease-in-out infinite; }
-      .pulse2 { animation: pulse 3.4s ease-in-out infinite .8s; }
-      .pulse3 { animation: pulse 3.4s ease-in-out infinite 1.6s; }
-      .dash { stroke-dasharray: 4 12; animation: dash 10s linear infinite; }
-      @keyframes spin { to { transform: rotate(360deg); } }
-      @keyframes spinBack { to { transform: rotate(-360deg); } }
-      @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.025); } }
-      @keyframes pulse { 0%,100% { opacity:.28; r:3; } 50% { opacity:1; r:5.2; } }
-      @keyframes dash { to { stroke-dashoffset: -160; } }
-      @media (prefers-reduced-motion: reduce) { .orbit,.orbit2,.brain,.pulse,.pulse2,.pulse3,.dash { animation:none; } }
+      .turn { transform-box: fill-box; transform-origin: center; animation: turn 12s ease-in-out infinite; }
+      .depth { animation: depth 12s ease-in-out infinite; }
+      .nodeA { animation: pulse 4s ease-in-out infinite; }
+      .nodeB { animation: pulse 4s ease-in-out infinite 1.2s; }
+      .nodeC { animation: pulse 4s ease-in-out infinite 2.4s; }
+      @keyframes turn {
+        0%,100% { transform: scaleX(1) translateX(0); }
+        24% { transform: scaleX(.58) translateX(8px); }
+        50% { transform: scaleX(-1) translateX(0); }
+        76% { transform: scaleX(-.58) translateX(-8px); }
+      }
+      @keyframes depth { 0%,50%,100% { opacity:.18; } 24%,76% { opacity:.58; } }
+      @keyframes pulse { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+      @media (prefers-reduced-motion: reduce) { .turn,.depth,.nodeA,.nodeB,.nodeC { animation:none; } }
     </style>
   </defs>
 
-  <rect width="1200" height="420" rx="28" fill="#ffffff"/>
+  <rect width="720" height="360" fill="#ffffff"/>
 
-  <g opacity="0.7">
-    <line x1="92" y1="210" x2="360" y2="210" stroke="#dbeafe" stroke-width="1.5"/>
-    <line x1="840" y1="210" x2="1108" y2="210" stroke="#dbeafe" stroke-width="1.5"/>
-    <circle cx="92" cy="210" r="3" fill="#0ea5e9"/>
-    <circle cx="1108" cy="210" r="3" fill="#14b8a6"/>
+  <g transform="translate(360 172)" filter="url(#shadow)">
+    <g class="turn" fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="2.6" d="M-8-118C-52-132-102-107-108-63C-141-52-151-14-129 14C-147 49-121 87-82 88C-67 116-31 130 0 105"/>
+      <path stroke-width="2.6" d="M8-118C52-132 102-107 108-63C141-52 151-14 129 14C147 49 121 87 82 88C67 116 31 130 0 105"/>
+      <path stroke-width="2.1" d="M0-114C-8-89 8-66 0-43C-9-19 8 4 0 28C-8 52 7 76 0 104"/>
+
+      <g stroke-width="1.7" opacity=".92">
+        <path d="M-84-84C-54-82-33-64-30-39C-60-34-78-17-79 10"/>
+        <path d="M84-84C54-82 33-64 30-39C60-34 78-17 79 10"/>
+        <path d="M-101-46C-74-43-56-29-49-8C-76 0-91 17-89 40"/>
+        <path d="M101-46C74-43 56-29 49-8C76 0 91 17 89 40"/>
+        <path d="M-78 55C-53 42-30 46-12 68"/>
+        <path d="M78 55C53 42 30 46 12 68"/>
+        <path d="M-59-101C-39-88-23-74-18-55"/>
+        <path d="M59-101C39-88 23-74 18-55"/>
+        <path d="M-43 94C-28 77-14 75-1 87"/>
+        <path d="M43 94C28 77 14 75 1 87"/>
+      </g>
+
+      <g class="depth" stroke-width="1.1">
+        <path d="M-118-23C-83-2-59 21-53 59"/>
+        <path d="M118-23C83-2 59 21 53 59"/>
+        <path d="M-89-66C-56-54-36-28-34 3"/>
+        <path d="M89-66C56-54 36-28 34 3"/>
+        <path d="M-62 8C-42 19-29 38-27 61"/>
+        <path d="M62 8C42 19 29 38 27 61"/>
+      </g>
+
+      <g stroke-width="1" opacity=".38">
+        <path d="M-108-63C-71-53-37-51 0-43C37-51 71-53 108-63"/>
+        <path d="M-129 14C-89 17-48 19 0 28C48 19 89 17 129 14"/>
+        <path d="M-82 88C-51 78-24 78 0 82C24 78 51 78 82 88"/>
+      </g>
+
+      <g fill="#111111" stroke="none">
+        <circle class="nodeA" cx="-72" cy="-58" r="3.2"/>
+        <circle class="nodeB" cx="55" cy="-75" r="3"/>
+        <circle class="nodeC" cx="87" cy="2" r="2.8"/>
+        <circle class="nodeB" cx="-86" cy="25" r="2.8"/>
+        <circle class="nodeC" cx="41" cy="55" r="3"/>
+        <circle class="nodeA" cx="-30" cy="71" r="2.7"/>
+      </g>
+    </g>
   </g>
 
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#0f172a">
-    <text x="92" y="156" font-size="18" font-weight="650">ANALYTICS</text>
-    <text x="92" y="184" font-size="14" fill="#64748b">signals · decisions · systems</text>
-    <text x="1108" y="156" text-anchor="end" font-size="18" font-weight="650">AGENTIC AI</text>
-    <text x="1108" y="184" text-anchor="end" font-size="14" fill="#64748b">orchestration · evaluation · control</text>
-  </g>
-
-  <circle cx="600" cy="210" r="126" fill="url(#core)" opacity="0.9" filter="url(#soft)"/>
-
-  <g class="orbit" fill="none" stroke="#bae6fd" stroke-width="1.25" opacity="0.9">
-    <ellipse cx="600" cy="210" rx="164" ry="58"/>
-    <ellipse cx="600" cy="210" rx="164" ry="58" transform="rotate(60 600 210)"/>
-    <ellipse cx="600" cy="210" rx="164" ry="58" transform="rotate(120 600 210)"/>
-  </g>
-  <g class="orbit2" fill="none" stroke="#99f6e4" stroke-width="1" opacity="0.55">
-    <ellipse cx="600" cy="210" rx="143" ry="93"/>
-    <ellipse cx="600" cy="210" rx="143" ry="93" transform="rotate(90 600 210)"/>
-  </g>
-
-  <g class="brain" transform="translate(600 210)" stroke="url(#ink)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-    <path d="M-9-88 C-48-102-78-80-82-48 C-112-38-118-5-98 14 C-114 42-92 72-60 72 C-48 94-17 104 0 82"/>
-    <path d="M9-88 C48-102 78-80 82-48 C112-38 118-5 98 14 C114 42 92 72 60 72 C48 94 17 104 0 82"/>
-    <path d="M0-84 C-5-62 5-44 0-22 C-6 0 6 18 0 40 C-7 58 4 73 0 82"/>
-    <path d="M-73-45 C-47-44-31-28-28-7 C-53-2-67 12-68 32" opacity=".85"/>
-    <path d="M73-45 C47-44 31-28 28-7 C53-2 67 12 68 32" opacity=".85"/>
-    <path d="M-54 55 C-35 46-20 50-7 65" opacity=".8"/>
-    <path d="M54 55 C35 46 20 50 7 65" opacity=".8"/>
-    <path d="M-58-66 C-35-56-20-42-17-23" opacity=".75"/>
-    <path d="M58-66 C35-56 20-42 17-23" opacity=".75"/>
-  </g>
-
-  <g fill="#ffffff" stroke="#0ea5e9" stroke-width="1.6">
-    <circle class="pulse" cx="552" cy="152" r="3"/><circle class="pulse2" cx="636" cy="145" r="3"/><circle class="pulse3" cx="676" cy="201" r="3"/>
-    <circle class="pulse2" cx="548" cy="230" r="3"/><circle class="pulse3" cx="629" cy="250" r="3"/><circle class="pulse" cx="590" cy="188" r="3"/>
-  </g>
-
-  <circle cx="600" cy="210" r="11" fill="#ffffff" stroke="#0ea5e9" stroke-width="2" filter="url(#glow)"/>
-  <circle cx="600" cy="210" r="4" fill="#14b8a6"/>
-
-  <path class="dash" d="M360 210 C432 210 452 182 492 182" fill="none" stroke="#7dd3fc" stroke-width="1.5"/>
-  <path class="dash" d="M708 238 C754 238 774 210 840 210" fill="none" stroke="#5eead4" stroke-width="1.5"/>
-
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
-    <text x="600" y="382" font-size="13" fill="#94a3b8" letter-spacing="2.6">ANALYTICS → ML → AGENTIC SYSTEMS</text>
-  </g>
+  <ellipse cx="360" cy="319" rx="86" ry="11" fill="#000000" opacity=".06"/>
 </svg>
