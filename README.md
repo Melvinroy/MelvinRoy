@@ -2,59 +2,48 @@
 
 # Melvin Roy
 
-### Technical Manager · Analytics · ML Models · Agentic Systems
-
-Building dependable intelligent systems — from data and models to orchestration, evaluation and real-world execution.
+**Builder by instinct. Analytics by profession. Exploring what comes next with AI.**
 
 <br/>
 
-<img src="./assets/brain-orbit.svg" width="100%" alt="Animated cognitive core representing analytics, machine learning and agentic systems" />
+<img src="./assets/brain-orbit.svg" width="480" alt="Rotating monochrome brain" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/melvinroy1)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:melvinroy.victor@gmail.com)
+I have always learned the same way: **open it up, build something, break it, understand why, and try again.**
+
+[LinkedIn](https://linkedin.com/in/melvinroy1) · [Email](mailto:melvinroy.victor@gmail.com)
 
 </div>
 
-## What I build
+## A little about me
 
-I come from **analytics and data-driven decision systems**, with my current work moving deeper into **machine learning, LLMs and agentic systems**.
+I grew up around a computer my father believed we should understand, not just use. That curiosity eventually turned into microcontrollers, assembly code, robots, an RC boat, and a drone I assembled myself that did not exactly have a glorious first flight.
 
-The problems I enjoy most sit between a prototype and a production system: connecting data, models, orchestration and human judgment into workflows that are observable, reliable and useful.
+I ended up building my career in analytics and data systems, but the instinct never really changed. I still like difficult problems, unfamiliar technology, and learning by making something real.
 
-| Analytics | ML & LLM Systems | Agentic Systems |
-|---|---|---|
-| Decision intelligence · production analytics · data workflows | Model evaluation · inference · RAG · applied LLM workflows | LangGraph · orchestration · durable state · human-in-the-loop execution |
+These days, a lot of my spare time goes into **agentic frameworks, LLM workflows, orchestration, evaluation, open-source AI and the systems around them**. I usually build an idea more than once. The first version proves it can work. The next few teach me how to make it simpler, safer and more dependable.
 
-## Selected builds
+Most of what you will find here is part of that exploration.
+
+## Currently exploring
+
+`Agentic workflows` · `LangGraph` · `LangChain` · `LLM evaluation` · `RAG` · `Local agents` · `GPU inference` · `Human-in-the-loop systems` · `Open-source AI`
+
+## Things I am building
 
 ### [Outreach Intelligence](https://github.com/Melvinroy/Outreach)
-**Human-governed agentic orchestration with durable state and verified execution.**
-
-A multi-stage system that combines LLM-assisted routing, event-driven workflow state, approval boundaries and supervised browser execution. The interesting problem is not generating an answer — it is coordinating intelligent actions without losing context, provenance or control.
-
-`LangGraph` · `LangChain` · `LLMs` · `TypeScript` · `Supabase` · `Human-in-the-loop`
+An experiment in **human-governed agentic workflows** — durable state, LLM-assisted routing, approvals, event history and supervised execution working together as one system.
 
 ### [Brontide](https://github.com/Melvinroy/Journal)
-**A decision-intelligence system built around signal → risk → execution → learning.**
-
-A self-hostable product that brings discovery, decision support, risk logic and post-action learning into one measurable workflow.
-
-`Next.js` · `Supabase` · `Postgres` · `GitHub Actions` · `Analytics`
-
-## Current direction
-
-`Agentic AI` · `Open-source AI` · `LLM evaluation` · `RAG` · `GPU-accelerated inference` · `Workflow orchestration` · `AI reliability` · `Human-in-the-loop systems`
-
-## Technical landscape
-
-`Python` · `SQL` · `Spark` · `Databricks` · `LangGraph` · `LangChain` · `TypeScript` · `Next.js` · `FastAPI` · `Supabase` · `Docker`
+A self-hosted **decision and feedback system** that brings discovery, risk logic, execution planning and learning into one workflow.
 
 ---
 
 <div align="center">
-  <strong>Builder.</strong><br/>
-  <sub>Turning analytics, models and agents into dependable systems.</sub>
+
+**Still building. Still learning.**
+
+<sub>The interesting part is usually somewhere between the first idea and the version that finally works.</sub>
+
 </div>
