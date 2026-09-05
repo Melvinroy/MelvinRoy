@@ -1,34 +1,25 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-header-mobile.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-header.png" />
+  <source media="(max-width: 600px)" type="image/webp" srcset="./assets/profile-header-mobile.webp" />
+  <source media="(max-width: 600px)" srcset="./assets/profile-header-mobile.gif" />
+  <source type="image/webp" srcset="./assets/profile-header.webp" />
+  <img src="./assets/profile-header.gif" width="1200" alt="Melvin Roy — systems, products and applied AI. A monochrome 3D brain slowly rotates beside the words: I like turning ideas into things that work." />
+</picture>
 
-# Melvin Roy
+### The whole system is what interests me.
 
-**Builder by instinct. Analytics by profession. Exploring what comes next with AI.**
+My background is in **analytics and data systems**. What keeps me curious is building the whole thing: understanding a problem, connecting the pieces, and turning it into a product that makes someone's work easier.
 
-<br/>
+These days, a lot of that curiosity goes into **LLM workflows and agentic systems**. I enjoy working through how models use tools, carry context between steps, and fit into a workflow people can actually rely on. The orchestration, the evaluation, the interface, and all the awkward cases in between are part of the appeal.
 
-<img src="./assets/brain-orbit.svg" width="480" alt="Rotating monochrome brain" />
+## What keeps me curious
 
-<br/>
+- **Orchestration.** How should a workflow route a task, remember where it is, recover from a failed step, or hand a decision back to a person? I'm exploring that through LangGraph, tool use, durable state, and human approval flows.
+- **Evaluation.** Did a change make the system better? I care about testing the full workflow, understanding failure cases, and using evidence to decide what to improve next.
+- **Building the product.** The data underneath it, the logic connecting it, and the experience of using it. I like working across those boundaries and learning what each version gets wrong.
 
-I have always learned the same way: **open it up, build something, break it, understand why, and try again.**
-
-[LinkedIn](https://linkedin.com/in/melvinroy1) · [Email](mailto:melvinroy.victor@gmail.com)
-
-</div>
-
-## A little about me
-
-I grew up around a computer my father believed we should understand, not just use. That curiosity eventually turned into microcontrollers, assembly code, robots, an RC boat, and a drone I assembled myself that did not exactly have a glorious first flight.
-
-I ended up building my career in analytics and data systems, but the instinct never really changed. I still like difficult problems, unfamiliar technology, and learning by making something real.
-
-These days, a lot of my spare time goes into **agentic frameworks, LLM workflows, orchestration, evaluation, open-source AI and the systems around them**. I usually build an idea more than once. The first version proves it can work. The next few teach me how to make it simpler, safer and more dependable.
-
-Most of what you will find here is part of that exploration.
-
-## Currently exploring
-
-`Agentic workflows` · `LangGraph` · `LangChain` · `LLM evaluation` · `RAG` · `Local agents` · `GPU inference` · `Human-in-the-loop systems` · `Open-source AI`
+I also keep coming back to **open-source models, local agents, GPU inference, and robotics**. Different ways of exploring the same curiosity: how intelligence becomes something useful in the world.
 
 ## Things I am building
 
@@ -40,10 +31,8 @@ A self-hosted **decision and feedback system** that brings discovery, risk logic
 
 ---
 
-<div align="center">
+Most of this is work in progress. I build things I want to use, learn where they fall short, and keep improving them.
 
-**Still building. Still learning.**
+[LinkedIn](https://linkedin.com/in/melvinroy1) · [Email](mailto:melvinroy.victor@gmail.com)
 
-<sub>The interesting part is usually somewhere between the first idea and the version that finally works.</sub>
-
-</div>
+<sub>[About the animation](./assets/CREDITS.md)</sub>
