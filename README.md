@@ -1,11 +1,4 @@
-<picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-header-mobile.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-header.png" />
-  <source media="(max-width: 600px)" type="image/webp" srcset="./assets/profile-header-mobile.webp" />
-  <source media="(max-width: 600px)" srcset="./assets/profile-header-mobile.gif" />
-  <source type="image/webp" srcset="./assets/profile-header.webp" />
-  <img src="./assets/profile-header.gif" width="1200" alt="Melvin Roy — systems, products and applied AI. A monochrome 3D brain slowly rotates beside the words: I like turning ideas into things that work." />
-</picture>
+# Melvin Roy
 
 ### The whole system is what interests me.
 
@@ -34,5 +27,3 @@ A self-hosted **decision and feedback system** that brings discovery, risk logic
 Most of this is work in progress. I build things I want to use, learn where they fall short, and keep improving them.
 
 [LinkedIn](https://linkedin.com/in/melvinroy1) · [Email](mailto:melvinroy.victor@gmail.com)
-
-<sub>[About the animation](./assets/CREDITS.md)</sub>
