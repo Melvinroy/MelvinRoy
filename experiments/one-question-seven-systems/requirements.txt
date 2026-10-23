@@ -1,0 +1,1 @@
+# Standard library only. Optional, for rendering the chart SVG to PNG: none required.
