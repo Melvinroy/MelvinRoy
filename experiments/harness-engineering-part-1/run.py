@@ -1,4 +1,4 @@
-"""One Question, Seven Systems: rerun on NVIDIA free endpoint.
+"""Harness Engineering, Part 1: rerun on the NVIDIA free endpoint.
 Same model, different system. Conditions: bare, full, full minus one part.
 API key is read from the NVIDIA_API_KEY environment variable."""
 import json, re, time, random, sys, os, threading, urllib.request, urllib.error

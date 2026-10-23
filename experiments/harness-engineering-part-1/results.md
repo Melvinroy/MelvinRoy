@@ -1,4 +1,4 @@
-# One Question, Seven Systems: NVIDIA rerun (results)
+# Harness Engineering, Part 1: results (NVIDIA rerun)
 
 Run date: 23 Oct 2026 (SGT). Endpoint: NVIDIA free API (integrate.api.nvidia.com), thinking mode off, temperature 0.7, seeds 1-3.
 Domain: synthetic IT-ops incidents (no real systems). Code: `scenarios.py`, `run.py`, `analyze.py`, `make_chart.py`. Raw: `raw/episodes.jsonl`. Full tables: `analysis_output.txt`, `summary.json`, `summary_by_family.json`.

@@ -54,7 +54,7 @@ export NVIDIA_API_KEY="your-key-here"   # never commit this
 
 # 2. Clone and enter the folder
 git clone https://github.com/Melvinroy/MelvinRoy.git
-cd MelvinRoy/experiments/one-question-seven-systems
+cd MelvinRoy/experiments/harness-engineering-part-1
 
 # 3. Run: bare vs full harness on one model size
 python3 run.py mid bare,full
@@ -82,7 +82,7 @@ Runs are **resumable**: episodes append to `raw/episodes.jsonl`, and finished on
 ## Repo layout
 
 ```
-one-question-seven-systems/
+harness-engineering-part-1/
 ├── run.py                  # the harness + bare baseline + ablations
 ├── scenarios.py            # 14 test scenarios across 7 families
 ├── go.sh                   # full resumable experiment suite
